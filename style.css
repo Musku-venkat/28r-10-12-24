@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+.container{
+    /* width: auto; */
+    /* height: 100%; */
+    background-color: rgb(241, 234, 234);
+    /* border: 2px solid black; */
+    /* padding: 10px 10px; */
+    /* padding: auto; */
+    padding: 10px;
+}
+.main{
+    /* height: 560px; */
+    /* width: 1460px; */
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin: 15px 15px;
+    /* padding-left: 10px; */
+    /* vertical-align: top; */
+}
+.a, .b, .c, .d {
+    display: inline-block;
+    vertical-align: top;
+}
+.a{
+    height: 300px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    background-color: rgb(206, 18, 18);
+    /* border: 2px solid black; */
+    padding: 16px 5px;
+
+}
+.b, .c, .d{
+    /* height: 350px; */
+    width: 300px;
+    color: black;
+    background-color: white;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    padding: 50px 10px;
+    text-align: center;
+    transition: 1s ease;
+}
+h1{
+    text-align: center;
+    /* margin: auto; */
+    margin-bottom: 30px;
+    /* border: 2px solid black; */
+    
+}
+h3{
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    margin: 30px 0px;
+
+}
+i{
+    color: rgb(206, 18, 18);
+    font-size: 30px;
+    /* border: 2px solid black; */
+    /* margin: 10px 50px; */
+    padding: 10px;
+    /* align-items: center; */
+    background-color: #f4eded;
+    border-radius: 60px;
+    /* margin-bottom: 100px; */
+}
+p{
+    padding: 5px 20px;
+    text-align: start;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+
+}
+a{
+    /* text-align: bottom; */
+    color: white;
+    /* padding-top: 50px; */
+    background-color: rgb(207, 76, 76);
+    /* border: 2px solid black; */
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 1s ease;
+}
+.item2, .item3, .item4{
+    align-items: center;
+    /* margin-bottom:30px ; */
+    
+}
+a:hover{
+    color: rgb(206, 18, 18);
+    background-color: white;
+}
+.b:hover i{
+    color: white;
+    background-color: rgb(206, 18, 18);
+} 
+.c:hover i{
+    color: white;
+    background-color: rgb(206, 18, 18);
+} 
+.d:hover i{
+    color: white;
+    background-color: rgb(206, 18, 18);
+} 
