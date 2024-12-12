@@ -44,7 +44,6 @@
     /* border: 2px solid black; */
     padding: 50px 10px;
     text-align: center;
-    transition: 1s ease;
 }
 h1{
     text-align: center;
@@ -69,6 +68,7 @@ i{
     background-color: #f4eded;
     border-radius: 60px;
     /* margin-bottom: 100px; */
+    transition: 1s ease;
 }
 p{
     padding: 5px 20px;
@@ -93,19 +93,11 @@ a{
     /* margin-bottom:30px ; */
     
 }
-a:hover{
+a:hover, .b:hover i, .c:hover i, .d:hover i{
     color: rgb(206, 18, 18);
     background-color: white;
 }
-.b:hover i{
+.b:hover i, .c:hover i, .d:hover i{
     color: white;
-    background-color: rgb(206, 18, 18);
-} 
-.c:hover i{
-    color: white;
-    background-color: rgb(206, 18, 18);
-} 
-.d:hover i{
-    color: white;
-    background-color: rgb(206, 18, 18);
-} 
+    background-color:  rgb(206, 18, 18);
+}
